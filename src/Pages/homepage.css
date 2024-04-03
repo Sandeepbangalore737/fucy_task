@@ -1,0 +1,22 @@
+.listItemText {
+  font-weight: 700 !important ;
+  font-size: 12px !important;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  position: sticky !important;
+  border-right: none !important;
+}
+
+.listItemActiveText {
+  font-weight: 900 !important;
+  font-size: 16px !important;
+}
+.listItemText {
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
+.MuiButton-outlined {
+    border: 1px solid #1976d2 !important;
+    padding: 0px 0px; 
+    color: #1976d2 !important;
+}
