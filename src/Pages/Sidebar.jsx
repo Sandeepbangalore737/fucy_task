@@ -43,9 +43,15 @@ function Sidebar({ addComponent, items }) {
     setDialogOpen(false);
   };
   const handleAddComponent = () => {
-    addComponent({ name: componentName, properties: componentProperties });
+    addComponent({
+      name: componentName,
+      properties: componentProperties,
+    });
     setDialogOpen(false);
+    setComponentName("");
+    setComponentProperties("");
   };
+
   return (
     <Drawer
       className={classes.drawer}
